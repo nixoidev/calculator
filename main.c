@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 			break;
 	}
 	
-	printf("result is %d.\n", c);
+	printf("result is %d%c%d=%d.\n", num1,operator,num2,result);
 	
 	return 0;
 }
@@ -37,23 +37,23 @@ int main(int argc, char* argv[])
 int add(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return a+b;
 }
  
 int sub(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return a-b;
 }
  
 int multi(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return a*b;
 }
  
 int div(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return (int)a/b;
 }
