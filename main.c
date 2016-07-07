@@ -45,6 +45,8 @@ int add(int a, int b)
 int sub(int a, int b)
 {
 	//TODO implementation
+
+	//bug fix :: hot fix 0.0.2
 	return a-b;
 }
  
